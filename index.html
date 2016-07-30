@@ -4,41 +4,101 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>coach-sportif</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="1432014558-6511.ico">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script language="JavaScript">
+<!--
+//PLF-http://www.monjavascript.net/
+var position=0;
+var msg="PROMOTION ÉTÉ:30 EUROS LA SEANCE D 1HEURE ";
+var msg="     "+msg;
+var longue=msg.length;
+var fois=(70/msg.length)+1;
+for(i=0;i<=fois;i++) msg+=msg;
+function textdefil() {
+document.form1.deftext.value=msg.substring(position,position+70);
+position++;
+if(position == longue) position=0;
+setTimeout("textdefil()",100);
+}
+window.onload = textdefil;
+//-->
+</script>
     </head>
 
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <!------------------------HEADER-------------------------->
+    <form name="form1">
+    <div align="center">
+      <a href="javascript:changecouleur"</a>
+    <input type="text" name="deftext" size=50>
+    </div>
+    </form>
+      <img src="img/Coach-sportif.jpg" class="img" width="100%"alt="Responsive image">
+      <nav class="navbar navbar-light bg-faded">
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+      &#9776;
+    </button>
+    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+      <nav class="navbar navbar-dark bg-primary">
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">ACCEUIL <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">RESERVATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">A PROPOS</a>
+        </li>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <h1>
+Une méthode de coaching sportif et nutritionnel<br> créée par zitoun alliant nutrition,sport et relaxation</br></h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>le principe</h1>
+
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
+                enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
+                felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                elementum semper nisi.</p>
+            </div>
+            <div class="col-md-6">
+              <img src="/home/zitoun/Desktop/coach-sportif/img/1,width=300,height=300,appearanceId=2,version=1433921931.jpg"
+              class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!----------------------------------FOOTER----------------------->
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-        
+
     </body>
 </html>
